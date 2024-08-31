@@ -3,8 +3,6 @@ import type { FC } from 'react';
 
 import { Link } from '../../../shared/ui/Link/ui';
 
-import tonSvg from './ton.svg';
-
 export const IndexPage: FC = () => {
   return (
     <List>
@@ -14,7 +12,7 @@ export const IndexPage: FC = () => {
       >
         <Link to='/ton-connect'>
           <Cell
-            before={<Image src={tonSvg} style={{ backgroundColor: '#007AFF' }}/>}
+            before={<Image src={''} style={{ backgroundColor: '#007AFF' }}/>}
             subtitle='Connect your TON wallet'
           >
             TON Connect
