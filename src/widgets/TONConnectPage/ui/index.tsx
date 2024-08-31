@@ -14,7 +14,7 @@ import type { FC } from 'react';
 
 import { DisplayData } from '../../../shared/ui/DisplayData/ui';
 
-import './TONConnectPage.css';
+import './styled.css';
 
 export const TONConnectPage: FC = () => {
   const wallet = useTonWallet();
